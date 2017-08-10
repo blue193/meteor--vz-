@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* would love to use 100vh but ios doesnt factor in addresss bar*/
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.header {
+  flex: none;
+}

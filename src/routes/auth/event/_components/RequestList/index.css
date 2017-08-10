@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.innerContainer {
+  composes: container;
+  overflow-y: auto;
+}
+
+.listContain {
+  display: flex;
+  flex: 1;
+}
+
+.noResults {
+  flex: 1;
+  padding: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #fff;
+  border-top: 1px solid #cccdcd;
+  align-items: center;
+}

@@ -1,0 +1,33 @@
+Inter[Action] Account is Ready to Select Appointment Preferences
+
+Hello $!{account.givenName},
+
+Thank you for registering for the Global Business Travel Meetings & Events appointment scheduling application for INTER[action] 2016 brought to you by Conference Solutions (CSS). This platform will allow you to filter, select and manage your appointments and profile for the upcoming event. The system is designed to make connecting with valuable business contacts simple yet targeted.
+
+You have been fully registered and may now access the appointment system with the credentials below.
+
+Click or paste this URL into your browser: ${url}
+
+User name: YOUR EMAIL ADDRESS
+
+Use password: Stage2016
+
+Once you’ve logged in to the Conference Solutions platform (CSS), first review your profile, which was populated from the information in your Cvent registration and will be used to make appointment recommendations. Please note, your basic information like role, name and email cannot be changed in CSS. You will only be able to change the answers you provided to the questions during registration, such as what region you service or book meetings in.
+
+Once you have confirmed or changed your responses to the questions, the system will make appointment recommendations based off your responses. Additionally, feel free to filter and make selections regarding the types of contacts and companies that you’d like to meet with at the event. Click on “Requests” to prioritize your requests. You can come back to make changes to your selections as often as you like until November 23rd.
+
+Suppliers please select 7-15 employees. Employees please select 5-10 Suppliers. The number of meetings you will be assigned will be predetermined by the GBT team. The system will automatically create a schedule for each participant. This will be done after the CSS platform has been closed to edits on November 23rd.
+
+Your personal agenda will include the final schedule of your appointments during the showcase and will be available in the mobile app.
+
+Happy meeting!
+Your CSS & GBT Teams
+--------------------
+For general inquiries or to request support with your account, please email help@conferencesolutions.com (mailto:help@conferencesolutions.com?subject=Help)
+
+For inquiries on incorporating scheduling solutions for your business, please visit www.conferencesolutions.com (http://www.conferencesolutions.com/)
+or call (312) 545-7563 to speak to a representative.
+
+Conference Solutions -- Automated one-to-one and pre-scheduled meetings to drive productivity and value for business appointments and events.
+
+332 South Michigan Ave, Chicago, IL 60604

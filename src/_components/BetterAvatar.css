@@ -1,0 +1,10 @@
+.betterAvatar {
+  background-color: rgb(188, 188, 188);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  top: 16px;
+  left: 16;
+  user-select: none;
+}

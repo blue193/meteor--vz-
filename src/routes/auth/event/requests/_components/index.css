@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: inherit;
+  width: 100%;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.profilePanel {
+  display: flex;
+  height: inherit;
+  flex-direction: column;
+  background-color: #e2e2e2;
+}

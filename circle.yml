@@ -1,0 +1,46 @@
+machine:
+  environment:
+    PROJECT_NAME: css-stage-app
+  node:
+    version: 6.9.1
+  environment:
+    NODE_ENV: production
+dependencies:
+  override:
+  - npm install --production --silent
+  - npm run build
+database:
+  override:
+  - echo "Skipping database setup"
+test:
+  override:
+  - echo "Skipping tests"
+deployment:
+  feature:
+    branch: /feature_.*/
+    commands:
+      - ./scripts/deploy.sh $FEATURE_BUCKET
+      - curl https://api.rollbar.com/api/1/deploy/
+        -F access_token=$ROLLBAR_ACCESS_TOKEN
+        -F environment=feature
+        -F revision=$CIRCLE_SHA1
+        -F local_username=$CIRCLE_USERNAME
+  staging:
+    branch: master
+    commands:
+      - ./scripts/deploy.sh $STAGING_BUCKET
+      - curl https://api.rollbar.com/api/1/deploy/
+        -F access_token=$ROLLBAR_ACCESS_TOKEN
+        -F environment=staging
+        -F revision=$CIRCLE_SHA1
+        -F local_username=$CIRCLE_USERNAME
+  release:
+    tag: /v[0-9]+(\.[0-9]+)*/
+    owner: nrgmeeting
+    commands:
+      - ./scripts/deploy.sh $PRODUCTION_BUCKET
+      - curl https://api.rollbar.com/api/1/deploy/
+        -F access_token=$ROLLBAR_ACCESS_TOKEN
+        -F environment=production
+        -F revision=$CIRCLE_SHA1
+        -F local_username=$CIRCLE_USERNAME

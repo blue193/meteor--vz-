@@ -1,0 +1,14 @@
+.container {
+  padding: 20px;
+}
+
+.header {
+  font-size: 1.5rem;
+  margin: 0 0 5px;
+  font-weight: 500;
+}
+
+.subHeader {
+  font-size: 1.2rem;
+  margin: 0 0 10px;
+}

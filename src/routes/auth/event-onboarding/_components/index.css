@@ -1,0 +1,12 @@
+.sideNav {
+  display: none;
+}
+
+@media(min-width: 990px) {
+  .sideNav {
+    display: flex;
+  }
+  .content {
+    padding-left: 256px;
+  }
+}
